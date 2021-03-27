@@ -1,0 +1,23 @@
+ int a, b;
+            Console.WriteLine("Please input the number");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please input the number ");
+            b = int.Parse(Console.ReadLine());
+            int x = a;
+            int y = b;
+
+            do
+            {
+                if (x < y)
+                {
+                    x = x + a;
+                }
+                else
+                {
+                    y = y + b;
+                }
+            }
+            while (x != y);
+            {
+                Console.WriteLine("My answer is {0}", x);
+            }
